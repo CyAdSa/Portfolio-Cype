@@ -1,0 +1,31 @@
+.header {
+  background-color: #f5f5f5; // Couleur de fond fumée
+  padding: 10px; // Espacement autour du header
+
+  .navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px; // Espacement horizontal entre les éléments
+
+    .navLink {
+      color: navy; // Couleur du texte en bleu marine
+      padding: 8px 16px; // Espacement interne du bouton rectangulaire
+      border: 1px solid navy; // Bordure autour du bouton rectangulaire
+      border-radius: 4px; // Coins arrondis du bouton rectangulaire
+      text-decoration: none; // Supprimer la décoration de texte par défaut
+      transition: background-color 0.3s; // Transition de couleur de fond au survol
+      margin-top: auto; // Positionne les liens en bas de la dernière ligne de texte
+
+
+      &:hover {
+        background-color: navy; // Couleur de fond bleu marine au survol
+        color: #f5f5f5; // Couleur du texte en blanc au survol
+      }
+      
+    }
+  }
+}
+
+
+  
